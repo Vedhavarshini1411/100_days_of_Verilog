@@ -1,1 +1,10 @@
-
+module number_systems;
+    reg [3:0] bin_num = 4'b1010;
+    reg [3:0] dec_num = 4'd10;
+    reg [3:0] hex_num = 4'hA;
+    initial begin
+        $display("Binary: %b", bin_num);
+        $display("Decimal: %d", dec_num);
+        $display("Hex: %h", hex_num);
+    end
+endmodule
