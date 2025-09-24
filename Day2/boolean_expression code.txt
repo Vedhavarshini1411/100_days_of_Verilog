@@ -1,1 +1,9 @@
+module boolean_expression(
+   input A,
+   input B,
+   output F
+);
+   //F=A.B+A.B'=A
+   assign F= A;
+endmodule
 
