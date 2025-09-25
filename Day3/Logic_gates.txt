@@ -1,1 +1,11 @@
-
+module Logic_gates(
+   input A,
+   input B,
+   output AND_out,
+   output OR_out,
+   output NOT_out
+);
+   assign AND_out= A&B;
+   assign OR_out= A|B;
+   assign NOT_out= ~A;
+endmodule
