@@ -1,1 +1,10 @@
+module Universal_gates (
+    input A,
+    input B,
+    output NAND_out,
+    output NOR_out
+);
+   assign NAND_out = ~(A&B);
+   assign NOR_out = ~(A|B);
+endmodule
 
