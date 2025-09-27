@@ -1,1 +1,11 @@
-
+`
+module xor_xnor(
+   input A,
+	input B,
+	output xor_out,
+	output xnor_out
+);
+   assign xor_out = A^B;
+	assign xnor_out = ~(A^B);
+endmodule
+`
