@@ -1,0 +1,7 @@
+module mux_2to1(
+    input I0, I1,
+    input S,
+    output Y
+);
+    assign Y = (S == 0) ? I0 : I1;
+endmodule
